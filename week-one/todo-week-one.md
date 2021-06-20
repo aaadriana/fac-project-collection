@@ -1,4 +1,4 @@
-#To-do list for Week one
+# To-do list for Week one
 [Pre Apprenticeship 1 tasks](https://learn.foundersandcoders.com/course/syllabus/precourse-1/schedule/)
 
 - [x] Install all the software I need to start the course.
