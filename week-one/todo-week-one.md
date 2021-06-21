@@ -21,5 +21,5 @@ Date | Tasks
 ------------ | -------------
 18 Jun | Strict mode, Let, Const, For of loops
 19 Jun | Template literals, Rest parameters
-20 Jun | Accessors in object literals
+21 Jun | Accessors in object literals , Basic array destructuring
 
