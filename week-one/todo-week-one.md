@@ -3,7 +3,7 @@
 
 - [x] Install all the software I need to start the course.
 - [ ] Learn and practice Terminal
-- [ ] Work through the [Semantic HTML workshop](https://learn.foundersandcoders.com/workshops/semantic-html/)
+- [x] Work through the [Semantic HTML workshop](https://learn.foundersandcoders.com/workshops/semantic-html/)
 - [ ] Work through the [Learn Accessibility workshop](https://learn.foundersandcoders.com/workshops/learn-a11y/)
 - [x] Sign up for [JavaScript 30](https://javascript30.com/)
 - [ ] JavaScript 30 - Drum Kit project 
