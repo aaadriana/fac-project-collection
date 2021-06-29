@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    color: black;
+    line-height: 1.9;
+    background-color: #f3f3f3;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    z-index: 100;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+.hello {
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+  
+.navbar-logo {
+    height: 6rem;
+  }
+
+  /* layout */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+  }
+  
+  /* Parallax Styles */
+.parallax-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 8px;
+    perspective-origin: 0%;
+    display: flex;
+  }
+  
+.foreground {
+    margin-top: auto;
+    margin-bottom: 15px; 
+    transform-origin: 0;
+    transform: translateZ(3px) scale(0.625);
+  }
+  
+.foreground h1 {
+    font-size: 56px;
+  }
+
+.parallax {
+    /* The image used */
+    background-image: url("pic.jpg");
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.weeks {
+    grid-row: 2 / span 3;
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: scroll;
+  }
+  
+.weeks-row {
+    padding: 2.25rem 4rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+.week-nr {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    padding: 0.1rem 1rem;
+    border-radius: 10rem;
+    margin-right: 2rem;
+    background-image: linear-gradient(to top left, #ee6c4d, #f5ad9b);
+  }
+
+.date {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #666;
+  }
+
+
+.link {
+    font-size: 1.7rem;
+    margin-left: auto;
+  }
