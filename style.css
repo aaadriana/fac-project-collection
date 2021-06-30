@@ -106,3 +106,23 @@ body {
     font-size: 1.7rem;
     margin-left: auto;
   }
+
+  .footer {
+    padding: 1rem 3rem;
+    background-color: #293241;
+  }
+  
+  .footer-logo {
+    height: 7rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  
+  .footer-copyright {
+    font-size: 1.4vw;
+    color: #eee;
+    text-align: center;
+  }
+
+ 
