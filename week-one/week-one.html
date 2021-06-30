@@ -40,11 +40,45 @@
     </div>
 
     <section class="sector" id="sector-1">
-      <ul>
-        <li>Writing semantic HTML tags is more accessible</li>
-        <li>We can audit sites using Lighthouse</li>
-        <li>...</li>
-      </ul>
+      <div class="notes-text">
+        <h5 class="notes-header">Terminal</h5>
+        <ul>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">pwd</span> command stands for “present working directory,” and it lets you know where you are within the current filesystem.</li>
+          <li>To create a new directory called files we’ll write the following, with <span style="color: brown; background-color: rgb(194, 199, 199);">mkdir</span> being the command and files being the argument: <span style="color: brown; background-color: rgb(194, 199, 199);">mkdir files</span></li>
+          <li>You can listing out the files in the directory, with the <span style="color: brown; background-color: rgb(194, 199, 199);">ls</span> command (signifying “list”).</li>
+          <li>In order to move into the directory that we have created, we’ll use the <span style="color: brown; background-color: rgb(194, 199, 199);">cd</span> command and pass the name of the directory we want to move into as the argument. The command cd stands for “change directory,” and we’ll construct it like so: <span style="color: brown; background-color: rgb(194, 199, 199);">cd files</span></li>
+          <li>Regardless of where we are in a filesystem, we can always use the command <span style="color: brown; background-color: rgb(194, 199, 199);">cd /</span> to move to the primary directory</li>
+          <li>From where we currently are, we can use two dots to return to the parent user directory, like so:<span style="color: brown; background-color: rgb(194, 199, 199);">cd ..</span></li>
+          <li>You can type the following from anywhere on your machine and return to this home directory: <span style="color: brown; background-color: rgb(194, 199, 199);">cd ~</span></li>
+          <li> <span style="color: brown; background-color: rgb(194, 199, 199);">touch</span> command, can create a new file or modify an existing file. To use it, you can use the command touch and pass the name of the text file you want to create as the argument: <span style="color: brown; background-color: rgb(194, 199, 199);">touch ocean.txt</span></li>
+          <li>We can use <span style="color: brown; background-color: rgb(194, 199, 199);">echo </span> directly on the command line to have the interface repeat after us. The traditional first program, "Hello, World!", can be written with echo like so:<span style="color: brown; background-color: rgb(194, 199, 199);">echo Hello, World!</span></li>
+          <li>the <span style="color: brown; background-color: rgb(194, 199, 199);">echo</span> command does not allow us to store the value of our text into a text file. In order to do that, we will need to type the following:<span style="color: brown; background-color: rgb(194, 199, 199);">echo "Sammy the Shark" > sammy.txt</span></li>
+          <li>Short for concatenate, the <span style="color: brown; background-color: rgb(194, 199, 199);">cat</span> command is very useful for working with files. Among its functions is showing the contents of a file.</li>
+          <li>The nano text editor can be summoned with the <span style="color: brown; background-color: rgb(194, 199, 199);">nano</span> command. If we want to edit our existing .txt file, we can do so by passing the file name as an argument.</li>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">mv</span> command, which stands for move, will allow us to change the location of a file. The command is constructed by taking the file we want to move as the first argument, and the new location as the second argument</li>
+          <li>We can copy the .txt file to create more files. To do this, we can use the <span style="color: brown; background-color: rgb(194, 199, 199);">cp</span> command, which stands for copy. This command works similarly to the mv command, taking the original file as the first argument, and the new file as the second argument.</li>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">curl</span> command transfer data from the web to our personal interactive terminal on the browser. The command curl stands for client URL (web address).</li>
+          <li>We can remove individual files with the <span style="color: brown; background-color: rgb(194, 199, 199);">rm</span> command, which stands for remove. We’ll need to pass the file we want to remove as the argument.</li>
+          <li>The command that is used to remove directories is called <span style="color: brown; background-color: rgb(194, 199, 199);; background-color: rgb(194, 199, 199);">rmdir</span>, which stands for remove directory. Only works on empty directories</li>
+          <li> Using the <span style="color: brown; background-color: rgb(194, 199, 199);">rm</span> command, we can recursively remove the primary directory and all of its content dependencies. We’ll use the <span style="color: brown; background-color: rgb(194, 199, 199);">-r</span> flag, which stands for recursive, and pass the folder as the argument.</li>
+        </ul>
+        <h5 class="notes-header">Semantic HTML</h5>
+        <ul>
+          <li>Sensible defaults. Browsers have a bunch of built-in styles and behaviours you should take advantage of. Why re-create all of that from scratch when you could just override the bits you want to change.</li>
+          <li>Complex behaviour. Built-in elements have lots of complex behaviours that are hard (or impossible) to reproduce. </li>
+          <li>Machine-readable. By describing the structure of our page we allow computer programs to understand it as well as humans.</li>
+          <li>This is also very important for accessibility. The web is for everyone, including people who use other types of software to browse. For example visually-impaired users often use “screen readers”, which read the page out loud.</li>
+          <h3>Here’s a quick list to run through whenever you’re picking an element:</h3>
+          <li>Is it a meaningful area of the page? Use an HTML5 block element like <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;header&gt;</span> or <span style="color: brown; background-color: rgb(194, 199, 199);"> &lt;footer&gt;</span>.</li>
+          <li>Does it label the start of a new section? Use a heading (with the right level) like <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;h2&gt;</span> or <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;h3&gt;</span>.</li>
+          <li>Does it navigate to a new page? Use an <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;a href="/page"&gt;</span>.</li>
+          <li>Does it trigger JS behaviour? Use a <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;button&gt;</span>.</li>
+          <li>Does it allow user input? Use a <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;form&gt;</span> containing <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;input&gt;</span>s (with <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;label&gt;</span>s!).</li>
+          <li>Is it just for applying some layout/styles? Use something like <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;div class="grid"&gt;</span> or <span style="color: brown; background-color: rgb(194, 199, 199);">&lt;span class="big-text"&gt;</span>.</li>
+        </ul>
+
+
+      </div>
     </section>
 
     <section class="sector" id="sector-2">
