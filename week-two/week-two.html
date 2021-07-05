@@ -41,7 +41,48 @@
 
     <section class="sector" id="sector-1">
       <div class="notes-text">
-        <h5 class="notes-header"></h5>
+        <h5 class="notes-header">JavaScript Arrays: Basics</h5>
+        <ul>
+          <li>Arrays are sequences of values that have a specific order and a length.</li>
+          <li>Values can be retrieved from an array using <span style="color: brown; background-color: rgb(194, 199, 199);">[]</span>. Indexes start at 0.</li>
+          <li>We can replace array elements with <span style="color: brown; background-color: rgb(194, 199, 199);">[]</span> and <span style="color: brown; background-color: rgb(194, 199, 199);">=</span>.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: Stack</h5>
+        <ul>
+          <li>We can add elements to the end of an array with <span style="color: brown; background-color: rgb(194, 199, 199);">push</span>. <span style="color: brown; background-color: rgb(194, 199, 199);">push</span> returns the array's length, including the newly-pushed element.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">pop</span> is the opposite of push. It removes the last element from the array. <span style="color: brown; background-color: rgb(194, 199, 199);">pop</span> returns the element that was removed.</li>
+          <li>Some array methods return a new array. <span style="color: brown; background-color: rgb(194, 199, 199);">push</span> and <span style="color: brown; background-color: rgb(194, 199, 199);">pop</span> do not. Instead, they change the array itself each time they're called.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: For each</h5>
+        <ul>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">forEach</span> method executes a function once for each element in an array.</li>
+          <li> <span style="color: brown; background-color: rgb(194, 199, 199);">forEach</span>lets us write the same code without the index variable <span style="color: brown; background-color: rgb(194, 199, 199);">i</span>.</li>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">forEach</span> method always returns the value undefined and is not chainable.</li>
+          <li>We can modify the array's elements during the <span style="color: brown; background-color: rgb(194, 199, 199);">forEach</span>.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: Slice</h5>
+        <ul>
+          <li>If we want to access a subsection of an array we can use the <span style="color: brown; background-color: rgb(194, 199, 199);">slice</span> method. It takes an argument begin, which is the index to start from.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">slice</span> can take a second argument, end. It slices all elements from begin up to end, but not including end.</li>
+          <li>We can slice beyond the end of the array. It gives the same result as slicing right up to the last element.</li>
+          <li>If our begin index is past the end of the array, we get an empty result.</li>
+          <li>With no arguments, <span style="color: brown; background-color: rgb(194, 199, 199);">slice</span> will slice all elements of the array. This effectively copies the array. If we change the original, it won't affect the copy. Likewise, if we change the copy, it won't affect the original.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: Map</h5>
+        <ul>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">map</span> method calls a function on each element of an array. It returns a new array of the values returned from those function calls.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">map</span> doesn't change the original array.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: Concat</h5>
+        <ul>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">concat</span> method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">concat</span> takes multiple arguments, so we can combine many arrays if needed</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">concat</span> can also be used to add single elements to the end of an array. If its argument isn't an array, it will be added as a single element.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: Includes</h5>
+        <ul>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">includes</span> method determines whether an array includes a certain value among its entries, returning true or false as appropriate.</li>
+        </ul>
        
       </div>
     </section>
