@@ -1,6 +1,13 @@
 /* THE CHALLENGE */
 /* Layout the contents of the <main> container in a 
 5-column/2-row grid. */
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows:  50% 50%;
+  grid-gap: 10px;
+}
+
 
 /* ALTER BELOW THIS LINE */
 
