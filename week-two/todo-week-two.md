@@ -3,7 +3,7 @@
 - [x] Work through the [CSS Layouts](https://learn.foundersandcoders.com/workshops/css-layout/) workshop. 
 - [ ] Build a projects [gallery](https://learn.foundersandcoders.com/course/syllabus/pre-apprenticeship-2/project/)
 - [x] Work through [Grid Garden](https://cssgridgarden.com/)
-- [ ] Recreat a [BBC News style homepage](https://github.com/bobbysebolao/learn-css-grid) using CSS Grid.
+- [x] Recreat a [BBC News style homepage](https://github.com/bobbysebolao/learn-css-grid) using CSS Grid.
 - [ ] Learn about [ARIA Labels](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/)and learn [why they’re used](https://www.24a11y.com/2019/what-a-year-of-learning-and-teaching-accessibility-taught-me/).
 - [ ] Upload my learnings to my personal repository. Commit something every day.
 - [x] Work through Playing with CSS Variables and JS && Array Cardio 1 on JavaScript30.
