@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <section class="sector" id="sector-1">
+    <section class="sector center" id="sector-1">
       <div class="notes-text">
         <h5 class="notes-header">JavaScript Arrays: Basics</h5>
         <ul>
@@ -68,6 +68,13 @@
           <li>If our begin index is past the end of the array, we get an empty result.</li>
           <li>With no arguments, <span style="color: brown; background-color: rgb(194, 199, 199);">slice</span> will slice all elements of the array. This effectively copies the array. If we change the original, it won't affect the copy. Likewise, if we change the copy, it won't affect the original.</li>
         </ul>
+        <h5 class="notes-header">JavaScript Arrays: Slice with negative arguments</h5>
+        <ul>
+          <li>We can <span style="color: brown; background-color: rgb(194, 199, 199);">slice</span> from the end of the array by using negative indexes. You can think of a negative index -2 as <span style="color: brown; background-color: rgb(194, 199, 199);">array.length - 2</span>. </li>
+          <li>With negative indexes, we can also slice before the beginning of the array. The result will only include elements in the original array. It won't invent additional elements to satisfy our out-of-bounds index.</li>
+          <li>Both begin and end can be negative. Remember that the end element isn't included in the slice.</li>
+          <li>We can mix positive and negative begin and end indexes.</li>
+        </ul>
         <h5 class="notes-header">JavaScript Arrays: Map</h5>
         <ul>
           <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">map</span> method calls a function on each element of an array. It returns a new array of the values returned from those function calls.</li>
@@ -83,6 +90,34 @@
         <ul>
           <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">includes</span> method determines whether an array includes a certain value among its entries, returning true or false as appropriate.</li>
         </ul>
+        <h5 class="notes-header">JavaScript Arrays: Arrays are objects</h5>
+        <ul>
+          <li>In JavaScript, arrays are a special type of object. We can see this by looking at <span style="color: brown; background-color: rgb(194, 199, 199);">typeof someArray</span>, which will return <span style="color: brown; background-color: rgb(194, 199, 199);">'object'</span>, just like it does for regular objects.</li>
+          <li>Fortunately, this doesn't affect normal uses of arrays. When we store values at the array's indexes and read them back, everything works normally.</li>
+          <li>Extra properties assigned to an array don't change its <span style="color: brown; background-color: rgb(194, 199, 199);">length</span>.</li>
+          <li>In most cases, adding extra properties to arrays in this way is a mistake. It's better to use an object in this case.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: Filter</h5>
+        <ul>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">filter</span> calls a function on each element in an array. If the function returns <span style="color: brown; background-color: rgb(194, 199, 199);">true</span>, then <span style="color: brown; background-color: rgb(194, 199, 199);">filter</span> keeps that element. Otherwise, it discards the element.</li>
+          <li>span style="color: brown; background-color: rgb(194, 199, 199);">filter</span> builds a new array. The original array isn't changed.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Concurrency: setTimeout</h5>
+        <ul>
+          <li>Asynchronous code doesn't run all at once, from beginning to end. Instead, asynchronous code schedules other code to run in the future. (Asynchronous means "outside of normal execution order".)</li>
+          <li>In JavaScript, the simplest way to run code asynchronously is with <span style="color: brown; background-color: rgb(194, 199, 199);">setTimeout</span>. When we call <span style="color: brown; background-color: rgb(194, 199, 199);">setTimeout(someFunction, 1000)</span>, we're telling the JavaScript runtime to call <span style="color: brown; background-color: rgb(194, 199, 199);">someFunction</span> 1000 milliseconds (1 second) in the future.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Concurrency: Concurrent setTimeouts</h5>
+        <ul>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">setTimeout</span> can have an interval of 0, which means "do this immediately". However, it's still asynchronous! Our code will still finish before the <span style="color: brown; background-color: rgb(194, 199, 199);">setTimeout</span> callback is called.</li>
+          <li>Timers are asynchronous regardless of how many we create. When we create 3 timers, each with a delay of 0, none will run until the current code finishes. Timers with a delay of 0 will always execute in the order that they were created.</li>
+          <li>The order of the <span style="color: brown; background-color: rgb(194, 199, 199);">setTimeout</span> calls doesn't matter. If we switch their order, we'll get the same result: the timer with the shorter delay will fire first.</li>
+          <li>When a timer's callback is run, it begins, runs, and finishes, all without being interrupted. Then the JavaScript engine checks again. If there are other timers ready, they run.</li>
+        </ul>
+
+
+       
+
        
       </div>
     </section>
