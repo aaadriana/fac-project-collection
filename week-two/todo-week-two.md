@@ -17,3 +17,4 @@ Date | Tasks
 ------------ | -------------
 04 Jul | Arrays Basics, Stack, For each
 05 Jul | Slice, Map, Concat, Includes
+06 Jul | Slice with negative arguments, Arrays are objects, Filter, setTimeout, setTimeout and functions, Concurrent setTimeouts
