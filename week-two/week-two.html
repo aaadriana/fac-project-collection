@@ -115,6 +115,41 @@
           <li>The order of the <span style="color: brown; background-color: rgb(194, 199, 199);">setTimeout</span> calls doesn't matter. If we switch their order, we'll get the same result: the timer with the shorter delay will fire first.</li>
           <li>When a timer's callback is run, it begins, runs, and finishes, all without being interrupted. Then the JavaScript engine checks again. If there are other timers ready, they run.</li>
         </ul>
+        <h5 class="notes-header">JavaScript Arrays: Join</h5>
+        <ul>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">join()</span> method creates and returns a new string by concatenating all of the elements in an array</li>
+          <li>If we omit <span style="color: brown; background-color: rgb(194, 199, 199);">join</span>'s argument, the strings are joined with <span style="color: brown; background-color: rgb(194, 199, 199);">','</span> by default.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">join</span>'s argument is the string to put between each array element. It can be any string.</li>
+          <li>If we join some empty strings together, we get a string of only commas. Think about it as: the string has all of the commas in the original array.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">null</span> and <span style="color: brown; background-color: rgb(194, 199, 199);">undefined</span> become empty strings when <span style="color: brown; background-color: rgb(194, 199, 199);">join</span>ed.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">join</span> can be used to build a large string using short lines of code.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: Index of</h5>
+        <ul>
+          <li>We can ask an array for the <span style="color: brown; background-color: rgb(194, 199, 199);">indexOf</span> a particular value. (Indexes start at 0, as usual.)</li>
+          <li>If the value occurs multiple times in the the array, we'll get the index of the first occurrence.</li>
+          <li>If we ask for an element that isn't in the array, we get <span style="color: brown; background-color: rgb(194, 199, 199);">-1</span>.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: Some and every</h5>
+        <ul>
+          <li>The <span style="color: brown; background-color: rgb(194, 199, 199);">some</span> method decides whether a function is true of any element in an array. For example: "are any of these numbers two?" Or "are any of these strings empty?"</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">some</span> always returns <span style="color: brown; background-color: rgb(194, 199, 199);">false</span> for an empty array. This might seem strange, but it makes some sense.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">every</span> is true if our function is true for every element in the array.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">every</span> always returns true for an empty array. One way to remember this is that <span style="color: brown; background-color: rgb(194, 199, 199);">every</span>'s behavior for empty lists is the opposite of <span style="color: brown; background-color: rgb(194, 199, 199);">some</span>'s behavior.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">some</span> and <span style="color: brown; background-color: rgb(194, 199, 199);">every</span> operate on any array, no matter how big it is.</li>
+        </ul>
+        <h5 class="notes-header">JavaScript Arrays: flat and flatMap</h5>
+        <ul>
+          <li>By default, <span style="color: brown; background-color: rgb(194, 199, 199);">flat</span> only flattens one level of arrays, just like our flatten function above did. Any arrays nested more deeply than one level are left unmodified.</li>
+          <li>If we want to flatten beyond the first level, we can provide a depth argument to <span style="color: brown; background-color: rgb(194, 199, 199);">flat</span>. The default depth is 1, so the examples above used that value.</li>
+          <li>The depth can be <span style="color: brown; background-color: rgb(194, 199, 199);">Infinity</span>, in which case <span style="color: brown; background-color: rgb(194, 199, 199);">flat</span> will flatten all arrays no matter how deeply nested they are.</li>
+          <li><span style="color: brown; background-color: rgb(194, 199, 199);">flatMap</span> is identical to calling <span style="color: brown; background-color: rgb(194, 199, 199);">map</span> followed by <span style="color: brown; background-color: rgb(194, 199, 199);">flat</span>.</li>
+          <li>Both <span style="color: brown; background-color: rgb(194, 199, 199);">flat</span> and <span style="color: brown; background-color: rgb(194, 199, 199);">flatMap</span> build and return a new array. The original array remains unmodified.</li>
+        </ul>
+        
+
+
+
       </div>
     </section>
 
