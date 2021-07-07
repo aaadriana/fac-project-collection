@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 1.9rem;
+    color: white;
+    line-height: 1.9;
+    background-color: #293241;
+    margin: 12px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    z-index: 100;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+.hello {
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+.navbar-logo {
+    height: 6rem;
+}
+
+.center {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.width-sm {
+    max-width: 20rem;
+  }
+  
+.width-lg {
+    max-width: 60rem;
+  }
+  
+.stack-sm > * + * {
+    margin-top: 0.5rem;
+  }
+  
+.stack-md > * + * {
+    margin-top: 1rem;
+  }
+  
+.stack-lg > * + * {
+    margin-top: 2rem;
+  }
+  
+.stack-xl > * + * {
+    margin-top: 4rem;
+  }
+  
+.row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+.gap-lg {
+    gap: 2rem;
+  }
+  
+.gap-xl {
+    gap: 4rem;
+  }
+  
+.justify-space-between {
+    justify-content: space-between;
+  }
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+.column-lg {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
+
+.subtitle {
+  font-size: 1rem;
+  color: #ee6c4d;
+}
+
+h1 {
+    color: #ee6c4d;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+figure img {
+    transition: transform .3s ease-out;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px #ee6c4d;;
+}
+
+figure img:hover {
+    transform: translate(0, -5px);
+  }
+
+  
+main {
+    padding: 4rem 1.5rem;
+  }
+  
+.footer {
+    padding: 1rem 3rem;
+    background-color: #293241;
+  }
+  
+.footer-logo {
+    height: 7rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  
+.footer-copyright {
+    font-size: 1.4vw;
+    color: #eee;
+    text-align: center;
+  }
