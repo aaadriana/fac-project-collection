@@ -4,3 +4,5 @@ This repository contains learnings and projects completed as part of the FAC22 p
 
 https://aaadriana.github.io/fac-project-collection/
 
+https://aaadriana.github.io/fac-project-collection/week-two/Projects-Gallery
+
