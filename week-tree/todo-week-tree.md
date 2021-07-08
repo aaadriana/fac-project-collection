@@ -6,6 +6,7 @@
 - [ ] Work through Flex Panels Image Gallery and JS && Array Cardio 2 on JavaScript30.
 - [ ] Research employer
 - [ ] Twitter every day
+- [ ] Execute Program. Continue working on Modern JavaScript, Arrays and Concurrency.
 
 
 ### Execute Program progress:
