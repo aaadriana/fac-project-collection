@@ -13,5 +13,6 @@
 
 ### Execute Program progress:
 
-| Date | Tasks |
-| ---- | ----- |
+| Date   | Tasks                                                               |
+| ------ | ------------------------------------------------------------------- |
+| 25 Jul | Regular Expressions: Literals, Wildcard, Boundaries, Repetition, Or |
