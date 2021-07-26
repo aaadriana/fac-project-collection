@@ -45,7 +45,28 @@
       <div class="notes-text">
         <h5 class="notes-header"></h5>
         <ul>
-          <li></li>
+          <li>
+            NodeList is not an Array, you can iterate over it with forEach(). It
+            can be converted to a real Array using Array.from().
+          </li>
+          <li>There are 2 varieties of NodeList: live and static.</li>
+          <li>
+            Live NodeLists: changes in the DOM automatically update the
+            collection. For example, Node.childNodes is live.
+          </li>
+          <li>
+            Static NodeLists: any changes in the DOM does not affect the content
+            of the collection. The document.querySelectorAll() method returns a
+            static NodeList.
+          </li>
+          <li>
+            Methods: NodeList.item(), NodeList.entries(), NodeList.forEach(),
+            NodeList.keys(), NodeList.keys()
+          </li>
+          <li>
+            The template tag is used as a container to hold HTML content hidden
+            from the user when the page loads.
+          </li>
         </ul>
       </div>
     </section>
