@@ -2,7 +2,7 @@
 
 [Pre Apprenticeship 6 tasks](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/schedule/)
 
-- [ ] Spikes. Learn about: Advanced DOM.
+- [x] Spikes. Learn about: Advanced DOM.
 - [ ] Continue working on [agency website](https://learn.foundersandcoders.com/course/syllabus/pre-app-6/project/)
 - [ ] GitHub. Upload my learnings to my personal repository. Commit something every day.
 - [ ] JS30: Object and Arrays - Reference VS Copy
