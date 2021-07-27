@@ -14,5 +14,7 @@
 ### Execute Program progress:
 
 | Date   | Tasks                                                               |
-| ------ | ------------------------------------------------------------------- |
+| ------ | ------------------------------------------------------------------- | --- |
 | 25 Jul | Regular Expressions: Literals, Wildcard, Boundaries, Repetition, Or |
+| 26 Jul | Regular Expressions: Hex codes, Parens, Escaping                    |     |
+| 27 Jul | Modern JavaScript: Extending classes, String keyed methods          |     |
