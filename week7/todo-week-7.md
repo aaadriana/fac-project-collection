@@ -3,7 +3,7 @@
 [Pre Apprenticeship 7 tasks](https://learn.foundersandcoders.com/course/syllabus/pre-app-7/schedule/)
 
 - [ ] Set up the next week project repository with Elena
-- [ ] Workshop [Learn Fetch & Promises](https://learn.foundersandcoders.com/workshops/learn-fetch/)
+- [x] Workshop [Learn Fetch & Promises](https://learn.foundersandcoders.com/workshops/learn-fetch/)
 - [ ] Workshop [Promise practice](https://learn.foundersandcoders.com/workshops/promise-practice/)
 - [ ] Technical CV
 - [ ] Linkedin [checklist](https://s3.amazonaws.com/learntocodewith.me/LinkedIn/profile-checklist.pdf)
@@ -16,5 +16,7 @@
 
 ### Execute Program progress:
 
-| Date | Tasks |
-| ---- | ----- |
+| Date   | Tasks                                                                          |
+| ------ | ------------------------------------------------------------------------------ |
+| 28 Jul | Regular Expressions: Basic character classes, Basic character sets, Maybe      |
+| 30 Jul | Regular Expressions: Character classes, Character sets, Constrained repetition |
