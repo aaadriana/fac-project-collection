@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Fetch & Promises</title>
+  </head>
+  <body>
+    <h1>Open the console</h1>
+    <script>
+      // const myPromise = fetch()
+      //   .then((response) => response.json())
+      //   .then((result) => console.log(result))
+      //   .catch((error) => console.log(error));
+
+      const personalAccessToken = "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";
+
+      const getUser = (username) =>
+        fetch(
+          `https://api.github.com/users/${username}?access_token=${personalAccessToken}`
+        ).then((response) => response.json());
+
+      getUser("aaadriana").then(console.log).catch(console.error);
+
+      const getRepos = (user) =>
+        fetch(`${user.repos_url}?access_token=${personalAccessToken}`).then(
+          (response) => response.json()
+        );
+
+      getUser("aaadriana")
+        .then(getRepos)
+        .then(console.log)
+        .catch(console.error);
+
+      const promise1 = getUser("aaadriana");
+      const promise2 = getUser("elenamarinaki");
+      // const promise3 = getUser("MJOW1999");
+      // const promise4 = getUser("Moggach");
+
+      Promise.all([promise1, promise2]).then(console.log);
+    </script>
+  </body>
+</html>
