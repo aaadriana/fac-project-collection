@@ -15,6 +15,26 @@ body {
   margin: 12px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  z-index: 100;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navbar-logo {
+  height: 6rem;
+}
+
+.hello {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
 .center {
   max-width: 50rem;
   margin-left: auto;
