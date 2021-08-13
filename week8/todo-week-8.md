@@ -16,5 +16,6 @@
 
 ### Execute Program progress:
 
-| Date | Tasks |
-| ---- | ----- |
+| Date   | Tasks                                                                                                                                                                                                                                                                       |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 05 Aug | Modern JavaScript: Computed methods and accessors, Symbol basics, Builtin Symbols, Defining iterators, Problems with object keys, Symbols are metadata, Iterators, JavaScript Concurrency: Promise constructor, Catching promise rejections, Promises resolving to promises |
