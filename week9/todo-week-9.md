@@ -2,13 +2,13 @@
 
 [Pre Apprenticeship 9 tasks](https://learn.foundersandcoders.com/course/syllabus/pre-app-9/schedule/)
 
-- [ ] [Learn Unit Testing](https://learn.foundersandcoders.com/workshops/learn-unit-testing/)
-- [ ] GitHub. Upload my learnings to my personal repository. Commit something every day.
-- [ ] [Research employer](https://airtable.com/shriAJxQAYM7UHUHi)
-- [ ] Twitter every day
-- [ ] Execute Program.
-- [ ] Khan Academy, Algorithms
-- [ ] Challenges repo
+- [x] [Learn Unit Testing](https://learn.foundersandcoders.com/workshops/learn-unit-testing/)
+- [x] GitHub. Upload my learnings to my personal repository. Commit something every day.
+- [x] [Research employer](https://airtable.com/shriAJxQAYM7UHUHi)
+- [x] Twitter every day
+- [x] Execute Program.
+- [x] Khan Academy, Algorithms
+- [x] Challenges repo
 
 ### Execute Program progress:
 
