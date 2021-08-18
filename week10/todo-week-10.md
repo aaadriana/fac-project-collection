@@ -1,10 +1,9 @@
-# To-do list for Week nine
+# To-do list for Week ten
 
-[Pre Apprenticeship 9 tasks](https://learn.foundersandcoders.com/course/syllabus/pre-app-9/schedule/)
+[Pre Apprenticeship 9 tasks](https://learn.foundersandcoders.com/course/syllabus/pre-app-10/schedule/)
 
-- [ ] [Learn Unit Testing](https://learn.foundersandcoders.com/workshops/learn-unit-testing/)
+- [ ] [Learn Integration Testing](https://learn.foundersandcoders.com/workshops/learn-integration-testing/)
 - [ ] GitHub. Upload my learnings to my personal repository. Commit something every day.
-- [ ] [Research employer](https://airtable.com/shriAJxQAYM7UHUHi)
 - [ ] Twitter every day
 - [ ] Execute Program.
 - [ ] Khan Academy, Algorithms
@@ -12,6 +11,5 @@
 
 ### Execute Program progress:
 
-| Date   | Tasks                                                                                          |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 12 Aug | JavaScript Concurrency: Promises resolving to promises, Modern JavaScript: Maps, Map iterators |
+| Date | Tasks |
+| ---- | ----- |
